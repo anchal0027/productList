@@ -1,0 +1,52 @@
+body{
+   margin-top:50px;
+   font-size:20px;
+   color:white;
+   }
+   .services
+   {
+    font-family: 'Playball', cursive;
+      color: white;
+      font-size: 45px;
+      text-align: center;
+   }
+   .panel-default{
+   border:0px;
+   }
+   .container{
+   background-color: skyblue;
+   width:40%;
+   }
+   .color{
+   background-color: skyblue;
+   margin-top: 0px;
+   padding-top:0px;
+   }
+   .red{
+   background-color:#DB7093;
+   }
+   .green{
+   background-color:#8EC16D;
+   }
+   .pull{
+   float:right;
+   }
+   @media(max-width: 896px){
+   .container{
+   width:60%;
+   }
+   }
+   @media(max-width: 600px){
+   .container{
+   width:80%;
+   }
+   }
+   @media(max-width: 450px){
+   .container{
+   width:100%;
+   }
+   body{
+   font-size: 14px;
+   }
+   }
+
